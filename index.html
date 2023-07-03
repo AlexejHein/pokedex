@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/pkebal.png">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Pokedex</title>
+    
+    <script src="script.js"></script>
+</head>
+<body onload="init()">
+    <div>
+        <img class="bodyImg" src="./img/pngegg.png" alt="">
+    </div>
+
+    <input type="text" id="search-input" placeholder="Suche nach einem Pokémon">
+
+    
+    <div id="progress" class="progress-container">
+        <div id="progress-bar"></div>
+      </div>
+      
+    <div id="content"></div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
+    <div id="modal" class="none"></div>
+    
+</body>
+</html>
